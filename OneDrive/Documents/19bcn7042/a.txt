@@ -1,0 +1,42 @@
+import java.util.*;
+
+public class AAlgo {
+
+public static final int DIAG_PRICE = 14; public static final int COST = 10 ;
+
+static class PACKS{
+
+int heuristics = 0;
+
+int finalPrice = 0;
+
+int uu, qq;
+
+PACKS par;
+
+PACKS(int uu, int qq){
+
+this.uu = uu;
+
+this.qq = qq;
+
+}
+
+@Override
+
+public String toString(){
+
+return "["+this.uu+", "+this.qq+"]";
+}
+}
+
+static PACKS [1] grids = new PACKS[5][5];
+
+static PriorityQueue<PACKS> op;
+
+static boolean close[][];
+
+static int strt1, strt2; static int end1, end2;
+
+public static void setBlocked (int uu, int qq){ grids[uu][qq] = null;
+}

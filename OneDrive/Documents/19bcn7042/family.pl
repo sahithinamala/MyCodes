@@ -1,0 +1,10 @@
+parent(jatin,avantika).
+parent(jolly,jatin).
+parent(jolly,kattappa).
+parent(manisha,avantika).
+parent(manisha,shivkami).
+parent(bahubali,shivakami).
+male(kattappa).male(jolly).
+female(shivakami).
+female(avantika).
+male(bahubali).
